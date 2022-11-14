@@ -15,6 +15,7 @@ public class WelcomeController {
 
     @GetMapping("/")
     public String index(Model model) {
+    	//SonarQube 테스트
         logger.debug("Welcome to njonecompany.com...");
 
         model.addAttribute("msg", getMessage());
